@@ -475,8 +475,13 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+    .inner_container {
+        
+        height: fit-content;
+    }
+
     .info_section, .header_section{
-        padding: 20px;
+        padding: 40px 20px;
     }
 
     .info_section_content {
