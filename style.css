@@ -102,6 +102,11 @@ body {
     position: relative;
 }
 
+.main_section .info_section, .main_section .header_section {
+    min-height: 100vh;
+}
+
+
 .photo {
     border-radius: 50%;
     width: 60%;
@@ -458,7 +463,7 @@ body {
 
 /********************************************************************/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
     .socials {
         position: relative;
     }
@@ -470,6 +475,12 @@ body {
     }
     .first_name, .last_name {
         text-align: center;
+    }
+    .top_contacts {
+        position: relative;
+    }
+    .inner_container {
+        height: fit-content;
     }
     
 }
