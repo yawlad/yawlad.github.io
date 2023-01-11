@@ -546,10 +546,11 @@ body {
 }
 
 @media screen and (max-width: 620px) {
-    
+    .main_section .info_section, .main_section .header_section {
+        min-height: fit-content;
+    }
     .inner_container {
         flex-direction: column;
-        height: fit-content;
     }
 
     .header_section, .info_section {
